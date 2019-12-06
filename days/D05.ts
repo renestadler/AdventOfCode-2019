@@ -34,7 +34,7 @@ export class Main {
                     break;
                 case 4:
                     let output = modes[0] == 0 ? stack[stack[index + 1]] : stack[index + 1];
-                    if(output!=0){
+                    if (output != 0) {
                         return output;
                     }
                     index += 2;
@@ -77,7 +77,7 @@ export class Main {
                     break;
                 case 4:
                     let output = modes[0] == 0 ? stack[stack[index + 1]] : stack[index + 1];
-                    if(output!=0){
+                    if (output != 0) {
                         return output;
                     }
                     index += 2;
