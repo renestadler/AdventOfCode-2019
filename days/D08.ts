@@ -6,12 +6,8 @@ export class Main {
     }
 
     public static part1(inputs: string[]) {
-        let count: number = 0;
-        return count;
     }
 
     public static part2(inputs: string[]) {
-        let count = 0;
-        return count;
     }
 }
