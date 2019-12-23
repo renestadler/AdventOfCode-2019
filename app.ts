@@ -122,8 +122,10 @@ switch (dayNr) {
         console.log("Input:\t\t" + d22.Main.start(readInput("22.in")));
         break;
     case 23:
-        console.log("TestInput:\t" + d23.Main.start(readInput("23.test")));
-        console.log("Input:\t\t" + d23.Main.start(readInput("23.in")));
+        (d23.Main.start(readInput("23.test"))).then(v =>
+            console.log("TestInput:\t" + v));
+        (d23.Main.start(readInput("23.in"))).then(v =>
+            console.log("Input:\t\t" + v));
         break;
     case 24:
         console.log("TestInput:\t" + d24.Main.start(readInput("24.test")));
